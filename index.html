@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/checklist.png" type="image/x-icon">
+    <title>Todo app</title>
+</head>
+<body>
+
+    <div class="modal-overlay"></div>
+    <div class="modal-container">
+        <div class="modal">
+            <p>Add a task first</p>
+            <span class="material-symbols-outlined" id="close">
+                close
+                </span>
+        </div>
+    </div>
+    <header>
+        <div class="heading">
+            <span class="material-symbols-outlined">
+                wb_sunny</span>
+            <h1>My Day</h1>
+        </div>
+        <div id="date-day"></div>
+    </header>
+
+    <div class="container">
+        
+        <div class="add-task">
+            <span class="material-symbols-outlined">add</span>
+            <input type="text" placeholder="Add a task" id="input-task">
+        </div>
+
+        <div class="todo"> 
+            <!-- <span class="material-symbols-outlined">
+                check_circle
+            </span> -->
+            <!-- <span class="material-symbols-outlined" id="check">
+                circle
+            </span> -->
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
