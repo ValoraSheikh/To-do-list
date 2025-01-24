@@ -214,3 +214,10 @@ h1{
         width: 63vw;
     }
 }
+
+@media (max-width: 1200px) and (min-width: 480px) {
+    .modal {
+        height: 8vh;
+        width: 40%;
+    }
+}
